@@ -1,0 +1,4 @@
+# ignore Cuebiq data
+/data/state_mobility_link/
+/data/Weekly_mobility_link/
+/data/Weekly_mobility_link_test_data/
