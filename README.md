@@ -15,10 +15,10 @@ The sudden emergence of epidemics such as COVID-19 entails economic and social c
 
 Download the [paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3858274).
 
-Access the [code](/Notebooks/baselines.py). 
+Access the [code](/evaluation/baselines.py).
 
 **A Standard LSTM Cell Architecture**
-![Basic LSTM Model](evaluation/Basic_LSTM_Model.png)
+![Basic LSTM Model](/Figures/Basic_LSTM_Model.png)
 
 **Full Model Framework**  
 Following figure illustrates the multi-task interpretable LSTM model with transfer learning, where *θ<sup>Influenza</sup>* is the corresponding parameter learned from the influenza data as an input. It startsfrom the input sequence {**x**<sub>1</sub>,···,**x**<sub>t</sub>} and ends with the loss function. We consider the case of Cook and Champaign counties. To jointly estimate the two counties, the input vector **x**<sub>t</sub> contains the task-specific features for both Cook(colored in green) and Champaign (colored in yellow) counties and their shared features (colored in blue) with *Ñ* = 4. The goal is to conduct two-step ahead predictions for Cook County.
