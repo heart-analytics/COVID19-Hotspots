@@ -24,8 +24,8 @@ Following figure illustrates the multi-task interpretable LSTM model with transf
 
 **Transmission vs. Infection-Case Hotspots in IL**
 
-Transmission Hotspots  Apr-Jun 2020| Infection-Case Hotspots Apr-Jun 2020
-- | -
-![IL-importance-weighted](Figures/IL-importance-weighted.png) | ![IL_cases_hotspot.png](Figures/IL_cases_hotspot.png)
-**Transmission Hotspots  Oct-Dec 2020** | **Infection-Case Hotspots Oct-Dec 2020**
-![IL-importance-weighted](Figures/IL-weekly-weighted-hotspot.png) | ![IL_cases_hotspot.png](Figures/IL_importance_cases_weekly.png)
+Transmission Hotspots  Apr-Jun 2020| Infection-Case Hotspots Apr-Jun 2020 |
+:-: | :-: |
+![IL-importance-weighted](Figures/IL-importance-weighted.png) | ![IL_cases_hotspot.png](Figures/IL_cases_hotspot.png) |
+**Transmission Hotspots  Oct-Dec 2020** | **Infection-Case Hotspots Oct-Dec 2020** |
+![IL-importance-weighted](Figures/IL-weekly-weighted-hotspot.png)  | ![IL_cases_hotspot.png](Figures/IL_importance_cases_weekly.png) |
