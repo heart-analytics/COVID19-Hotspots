@@ -15,15 +15,17 @@ The sudden emergence of epidemics such as COVID-19 entails economic and social c
 
 Download the [paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3858274).
 
+**A Standard LSTM Cell Architecture**
+![Basic LSTM Model](Figures/Basic_LSTM_Model.png)
 
-![Basic LSTM Model](Figures\Basic_LSTM_Model.png)
+**Full Model Framework**  
+Following figure illustrates the multi-task interpretable LSTM model with transfer learning, where *θ<sup>Influenza</sup>* is the corresponding parameter learned from the influenza data as an input. It startsfrom the input sequence {**x**<sub>1</sub>,···,**x**<sub>t</sub>} and ends with the loss function. We consider the case of Cook and Champaign counties. To jointly estimate the two counties, the input vector **x**<sub>t</sub> contains the task-specific features for both Cook(colored in green) and Champaign (colored in yellow) counties and their shared features (colored in blue) with *Ñ* = 4. The goal is to conduct two-step ahead predictions for Cook County.
+![Model Architecture](Figures/Model_architechture.png)
 
-![Model Architecture](Figures\Model_architechture.png)
+**Transmission vs. Infection-Case Hotspots in IL**
 
-**Transmission vs. Infection-Case Hotspots in IL Apr-Jun 2020**
-
-
-Transmission Hotspots | Infection-Case Hotspots
+Transmission Hotspots  Apr-Jun 2020| Infection-Case Hotspots Apr-Jun 2020
 - | -
-![IL-importance-weighted](Figures\IL-importance-weighted.png) | ![IL_cases_hotspot.png](Figures\IL_cases_hotspot.png)
-![IL-importance-weighted](Figures\IL-weekly-weighted-hotspot.png) | ![IL_cases_hotspot.png](Figures\IL_importance_cases_weekly.png)
+![IL-importance-weighted](Figures/IL-importance-weighted.png) | ![IL_cases_hotspot.png](Figures/IL_cases_hotspot.png)
+**Transmission Hotspots  Oct-Dec 2020** | **Infection-Case Hotspots Oct-Dec 2020**
+![IL-importance-weighted](Figures/IL-weekly-weighted-hotspot.png) | ![IL_cases_hotspot.png](Figures/IL_importance_cases_weekly.png)
